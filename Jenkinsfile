@@ -1,5 +1,5 @@
 pipeline {
-    any agents
+    agent any 
         stages {
             stage ('Chechout code') {
                 steps {
